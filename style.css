@@ -1,0 +1,31 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: aqua;
+}
+table {
+    width: 50px;
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+
+}
+#heading {
+      background-color: rgb(138, 25, 52);
+      font-size: 50px;
+      border-color: blue;
+      border-width: 4px;
+      border-style: dotted;
+      border-radius: 12px;
+      color: chartreuse;
+      text-align: center;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
