@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <button class="btn">Click here</button>
+    <p class="para">Insert here</p> -->
+    <script>
+        let button = document.createElement("button");
+        button.textContent = "Click Me";
+        button.id = "btn"
+        document.body.appendChild(button);
+
+        let para = document.createElement("p");
+        para.textContent = "----Insert Here-------";
+        para.id="para";
+        document.body.appendChild(para);
+        document.getElementsByClassName("btn")[0].onclick=function(){
+            document.getElementsByClassName("para")[0].innerHTML="<b>ABESEC</b>"
+        }
+        document.getElementsByClassName("btn")[0].addEventListener("click",function
+        (){
+            document.getElementsByClassName("para")[0].innerHTML="<br>Another click"
+        })
+    </script>
+</body>
+</html>
